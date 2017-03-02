@@ -1,0 +1,36 @@
+body{
+   margin: 0;
+    padding: 0;
+}
+#main{
+    height: 500px;  width: 1290px;  margin: 15px 15px 0px 15px; position: relative;
+    background: #EEEEEE;  border: 1px solid #999999;  padding: 20px;
+}
+#left,#right,#main{ display: inline-block}
+#left{
+    position: absolute; left: 20px;  top:20px;
+    width: 200px;  height: 150px;background: white;  border: 1px solid #999;
+}
+#right{
+    position: absolute; right: 20px;  top:20px;
+    width: 120px; height: 460px;background: white;  border: 1px solid #999;
+}
+#middle{
+    width: auto; height: 480px;background: white;  border: 1px solid #999;
+    margin: 0  160px 0 240px;
+}
+
+#logo img{
+    width: 80px;height: 80px; margin: 35px 20px;
+}
+#name{
+    position: absolute; left: 100px;  top:35px; margin-left: 20px;
+}
+#middle >p{
+    margin: 20px;
+}
+.personal_logo{
+    margin: 22px;
+}
+.personal_logo img{
+    width: 80px;height: 80px;
