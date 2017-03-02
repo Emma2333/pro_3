@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>三列布局</title>
-    <link href="absolute_position.css" type="text/css" rel="stylesheet">
+   <!-- <link href="absolute_position.css" type="text/css" rel="stylesheet">-->
+    <link href="float.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div id="main">
+        <div id="right">
+            <div class="personal_logo">
+                <img src="imgs/jiang.JPG">
+            </div>
+            <div class="personal_logo">
+                <img src="imgs/jy.JPG">
+            </div>
+            <div class="personal_logo">
+                <img src="imgs/piao.jpg">
+            </div>
+            <div class="personal_logo">
+                <img src="imgs/poter.JPG">
+            </div>
+        </div>      <!--当“非float的元素”和“float的元素”在一起的时候,如果非float元素在先,
+                                        那么float的元素将受到排斥。也就是说:如果你在设置"right"是float:right时,
+                                    把他放在所有元素的最前面就正常了,-->
         <div id="left">
             <div id="logo">
                 <img src="imgs/logo.JPG">
@@ -32,20 +49,7 @@
                 其他效果图中给出的标识均被正确地实现。<br/>
             </p>
         </div>
-        <div id="right">
-            <div class="personal_logo">
-                <img src="imgs/jiang.JPG">
-            </div>
-            <div class="personal_logo">
-                <img src="imgs/jy.JPG">
-            </div>
-            <div class="personal_logo">
-                <img src="imgs/piao.jpg">
-            </div>
-            <div class="personal_logo">
-                <img src="imgs/poter.JPG">
-            </div>
-        </div>
+
     </div>
 </body>
 </html>
